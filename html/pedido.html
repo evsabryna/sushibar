@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="../css/pedido.css">
+</head>
+
+<body>
+    <div id="img">
+        <img src="../img/sushi.jpg" > <br />
+      <p> SUSHIBAR</p> 
+     </div>
+
+   
+    <div>
+        <ul id="header">
+            <a href="home.html">Página inicial</a>
+            <a href="catalogo.html">Sushis</a>
+            <a href="pedido.html">Faça seu pedido</a>
+        </ul>
+   </div>
+   <div>FAÇA SEU PEDIDO</div>
+   <div id="formularios">
+        <div class = "label-input">
+            <label>Nome</label>
+            <input type = "text" placeholder="Nome" id="Nome" />
+        </div>
+        <div class = "label-input">
+            <label>Endereço</label>
+            <input type = "text" placeholder="Endereço" id="Endereço" />
+        </div>
+        <div class = "label-input">
+            <label>Telefone</label>
+            <input type = "text" placeholder="Telefone" id="Telefone" />
+        </div>
+        <div class = "label-input">
+            <label>Pedido</label>
+            <input type = "text" placeholder="Pedido" id="Pedido" />
+        </div>
+        <div id="button"><button onclick="myfunction()">Confirmar o pedido</button></div>
+   </div>
+   <script>function myfunction(){
+    alert("Obrigado pela compra")
+   }</script>
+</body>
+</html>
